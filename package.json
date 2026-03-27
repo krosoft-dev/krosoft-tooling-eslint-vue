@@ -1,0 +1,21 @@
+{
+  "name": "@krosoft/tooling-eslint-vue",
+  "version": "0.0.1",
+  "description": "Shared ESLint 9 flat configuration for Vue projects",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "@krosoft/tooling-eslint": "*",
+    "eslint": ">=9.0.0",
+    "eslint-plugin-vue": ">=9.0.0",
+    "typescript-eslint": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
