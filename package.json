@@ -12,10 +12,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  },
   "peerDependencies": {
+    "typescript": "^5.0.0",
     "@krosoft/tooling-eslint": "*",
     "eslint": "^9.39.0",
     "eslint-plugin-vue": "^9.0.0",
