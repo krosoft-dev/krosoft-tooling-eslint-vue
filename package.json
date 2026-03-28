@@ -13,10 +13,10 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "peerDependencies": {
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "@krosoft/tooling-eslint": "*",
-    "eslint": "^9.39.4",
-    "eslint-plugin-vue": "^9.33.0",
+    "eslint": "^10.1.0",
+    "eslint-plugin-vue": "^10.8.0",
     "typescript-eslint": "^8.57.2"
   },
   "repository": {
