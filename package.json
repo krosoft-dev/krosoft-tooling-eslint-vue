@@ -4,11 +4,17 @@
   "description": "Krosoft ESLint shared config for Vue",
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": "./dist/index.js"
   },
   "files": [
-    "index.js"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
   "peerDependencies": {
     "@krosoft/tooling-eslint": "*",
     "eslint": ">=9.0.0",
