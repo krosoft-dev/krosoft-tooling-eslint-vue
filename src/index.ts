@@ -4,7 +4,6 @@ import { createBaseConfig } from "@krosoft/tooling-eslint";
 
 interface VueConfigOptions {
   tsconfigRootDir: string;
-  project?: string[];
 }
 
 export function createVueConfig(
